@@ -1,4 +1,15 @@
 {
-  "@@locale": "en"
-
+  "@@locale": "en",
+  "set_api_base_url": "Set valid API base URL in order to continue",
+  "home": "Home",
+  "preview": "Preview",
+  "process": "Process",
+  "results": "results",
+  "page": "Page",
+  "all_calculations_has_finished": "All calculations has finished, you can send your results to server",
+  "start_counting": "Start counting process",
+  "send_results_to_server": "Send results to server",
+  "the_calculation_is_not_yet_complete": "The calculation is not yet complete",
+  "error": "Error! Check the url and try again",
+  "error_server": "Error! Data did not pass verification on the server try again"
 }

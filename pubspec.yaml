@@ -1,4 +1,4 @@
-name: korsun
+name: bfs_app
 description: A new Flutter project.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
@@ -21,7 +21,7 @@ dependencies:
   shared_preferences: ^2.2.1
   cloud_firestore: ^4.9.2
   firebase_core: ^2.16.0
-  dio: ^5.3.3
+  dio: ^5.5.0
   http: ^1.1.0
   flutter_bloc: ^8.1.3
 

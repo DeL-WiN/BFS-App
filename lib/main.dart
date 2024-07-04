@@ -1,6 +1,7 @@
+import 'package:bfs_app/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:korsun/style.dart';
+
 import 'package:provider/provider.dart';
 
 import 'generated/l10n.dart';
@@ -32,7 +33,7 @@ class _AppState extends State<App> {
         locale: const Locale('en'),
         themeMode: ThemeMode.light,
         theme: ThemeData(
-          scaffoldBackgroundColor: BC.green,
+          scaffoldBackgroundColor: BC.black,
           bottomSheetTheme:
           const BottomSheetThemeData(backgroundColor: Colors.transparent),
         ),

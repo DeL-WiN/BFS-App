@@ -21,5 +21,26 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "all_calculations_has_finished": MessageLookupByLibrary.simpleMessage(
+            "All calculations has finished, you can send your results to server"),
+        "error": MessageLookupByLibrary.simpleMessage(
+            "Error! Check the url and try again"),
+        "error_server": MessageLookupByLibrary.simpleMessage(
+            "Error! Data did not pass verification on the server try again"),
+        "home": MessageLookupByLibrary.simpleMessage("Home"),
+        "page": MessageLookupByLibrary.simpleMessage("Page"),
+        "preview": MessageLookupByLibrary.simpleMessage("Preview"),
+        "process": MessageLookupByLibrary.simpleMessage("Process"),
+        "results": MessageLookupByLibrary.simpleMessage("results"),
+        "send_results_to_server":
+            MessageLookupByLibrary.simpleMessage("Send results to server"),
+        "set_api_base_url": MessageLookupByLibrary.simpleMessage(
+            "Set valid API base URL in order to continue"),
+        "start_counting":
+            MessageLookupByLibrary.simpleMessage("Start counting process"),
+        "the_calculation_is_not_yet_complete":
+            MessageLookupByLibrary.simpleMessage(
+                "The calculation is not yet complete")
+      };
 }
